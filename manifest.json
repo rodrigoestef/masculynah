@@ -4,9 +4,12 @@
     "name": "Hello World",
     "description": "Extensão Hello World - iMasters",
     "author": "Rodrigo Estef <rodrigoestef@gmail.com>",
-    "background":{
-        "scripts":["main.js"]
-    },
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["main.js"]
+        }
+    ],
     "browser_action": {
    	 "default_title": "Hello World",
    	 "default_popup": "index.html",
