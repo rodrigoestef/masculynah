@@ -11,8 +11,8 @@
         }
     ],
     "browser_action": {
-   	 "default_title": "Hello World",
-   	 "default_popup": "index.html",
+   	 "default_title": "masculynah",
+   	 
    	 "default_icon": "icon.png"
     }
 }
