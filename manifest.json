@@ -1,9 +1,12 @@
 {
     "manifest_version": 2,
-    "version": "0.0.1",
+    "version": "0.0.2",
     "name": "masculynah",
     "description": "Extensão da masculynah",
     "author": "Rodrigo Estef <rodrigoestef@gmail.com>",
+    "background":{
+        "scripts":["background.js"]
+    },
     "content_scripts": [
         {
             "matches": ["http://*/*", "https://*/*"],
